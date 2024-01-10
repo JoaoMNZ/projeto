@@ -200,7 +200,7 @@ footer a:hover{
 
 .redes a:hover{
   transform: translate(-2px, -2px);
-  transition: transform 0.25s
+  transition: transform 0.25s;
 }
 
 h2{
