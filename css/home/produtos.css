@@ -28,6 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: 'Roboto';
   gap: 8px;
 }
 
@@ -35,10 +36,12 @@
   font-size: 1.125rem;
   display: flex;
   align-items: center;
+  font-family: 'Roboto';
 }
 
 .produtos-item p span::after{
   content: "a partir de";
+  font-family: 'Roboto';
   display: inline-block;
   font-size: 0.75rem;
   margin-left: 4px;

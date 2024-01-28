@@ -12,9 +12,8 @@
 .reserva-conteudo {
   background: var(--cor-11);
   padding-left: 36px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  align-self: center;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .reserva-conteudo h1 {
@@ -30,6 +29,7 @@
   .reserva {
     grid-template-columns: 1fr;
     padding-top: 40px;
+    padding-bottom: 0px;
   }
   .reserva-conteudo p{
     width: 47ch;

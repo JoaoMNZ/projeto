@@ -6,35 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>Pizzaria do Gui</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header class="header container">
-    <div>
-      <img src="./img/LOGO.png" alt="Logo da Pizzaria do Gui">
-    </div>
-    <div class="menu">
-      <img src="./img/menu.svg" alt="Menu">
-    </div>
-    <nav>
-      <ul class="header-lista font-header cor-12">
-        <li><a href="">Cardápio</a></li>
-        <li><a href="">Reserva</a></li>
-        <li><a href="">Contato</a></li>
-        <li><a href="">PEÇA AQUI</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="main-bg">
-    <div class="main container">
-      <div class="main-conteudo">
-        <h1 class="font-titulo cor-0">Pizzaria do Gui</h1>
-        <p class="font-subtitulo cor-6">Somos uma pizzaria especializada em trazer até você os melhores sabores da Itália!</p>
-        <a href="./" class="botao">FAÇA SEU PEDIDO</a>
+  <div class="main-bg">
+    <header class="header container">
+      <div>
+        <img src="./img/LOGO.png" alt="Logo da Pizzaria do Gui">
       </div>
-    </div>
-  </main>
+      <div class="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul class="header-lista font-header cor-0">
+          <li><a href="">Cardápio</a></li>
+          <li><a href="">Reserva</a></li>
+          <li><a href="">Contato</a></li>
+          <li><a href="">PEÇA AQUI</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="">
+      <div class="main container">
+        <div class="main-conteudo">
+          <h1 class="font-titulo cor-0">Pizzaria do Gui</h1>
+          <p class="font-subtitulo cor-6">Somos uma pizzaria especializada em trazer até você os melhores sabores da Itália!</p>
+          <a href="./" class="botao">FAÇA SEU PEDIDO</a>
+        </div>
+      </div>
+    </main>
+  </div>
   <article class="produtos container">
     <h1 class="font-titulo">Nossas pizzas</h1>
     <ul class="produtos-lista">
@@ -63,6 +71,38 @@
       <a href="./" class="botao">FAÇA SUA RESERVA</a>
     </div>
   </article>
+
+
+
+  <footer class="footer-bg">
+    <div class="footer container">
+      <p class="font-footer cor-6 footer-copy">© Alguns direitos reservados.</p>
+      <div class="footer-contato">
+        <h3 class="font-subtitulo cor-0">CONTATO</h3>
+        <ul class="cor-5 font-footer">
+          <li><a href="tel:+552199999999">+55 21 9999-9999</a></li>
+          <li><a href="mailto:contato@bikecraft.com">contato@pizzaria.com</a></li>
+          <li>Rua Ali Perto, 42, Bota-Fogo</li>
+          <li>Rio de Janeiro - RJ</li>
+        </ul>
+        <div class="footer-redes">
+          <a href="./"><img src="./img/zap.svg" width="32" height="32" alt="Instagram"></a>
+          <a href="./"><img src="./img/Instagram.svg" width="32" height="32" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="footer-informacoes">
+        <h3 class="font-subtitulo cor-0">INFORMAÇÕES</h3>
+        <nav>
+          <ul class="font-footer cor-5">
+            <li><a href="./bicicletas.html">Bicicletas</a></li>
+            <li><a href="./seguros.html">Seguros</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+            <li><a href="./termos.html">Termos e Condições</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

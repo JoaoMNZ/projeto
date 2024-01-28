@@ -3,11 +3,18 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
 }
 
-.menu{
+.menu {
   display: none;
+}
+
+.menu span{
+  
+  width: 30px;
+  height: 2px;
+  background-color: var(--cor-0);
 }
 
 .header-lista{
@@ -20,18 +27,21 @@
   letter-spacing: 1.25%;
   padding: 10px;
   box-sizing: border-box;
-  border: 1px solid black;
+  border: 1px solid var(--cor-0);
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
   body{
     background: var(--cor-1);
   }
   .header{
     gap: 10px;
+    padding-bottom: 40px;
   }
   .menu{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
   }
   .header nav {
     display: none;
