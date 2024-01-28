@@ -30,6 +30,16 @@
   border: 1px solid var(--cor-0);
 }
 
+.header-lista li:hover{
+  color: #9AE7A7;
+}
+
+.header-lista li:hover:last-child{
+  border-color: #9AE7A7;
+  background:  linear-gradient(#9AE7A7, #85D792);
+  color: #002907;
+}
+
 @media (max-width: 800px){
   body{
     background: var(--cor-1);
