@@ -1,0 +1,27 @@
+.main-bg{
+  background: url("../../img/telainicial.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 800px;
+  padding-top: 80px;
+}
+
+.main p{
+  width: 38ch;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 800px){
+  .main-bg{
+    padding-top: 40px;
+    height: 600px;
+  }
+}
+
+@media(max-width: 600px){
+  .main-bg{
+    padding-top: 20px;
+    height: 400px;
+  }
+}

@@ -4,92 +4,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Pizzaria do Gui</title>
 </head>
 
 <body>
-  <main>
-    <header class="menu">
-      <img src="img/LOGO.png" alt="Logo">
-      <ul>
+  <header class="header container">
+    <div>
+      <img src="./img/LOGO.png" alt="Logo da Pizzaria do Gui">
+    </div>
+    <div class="menu">
+      <img src="./img/menu.svg" alt="Menu">
+    </div>
+    <nav>
+      <ul class="header-lista font-header cor-12">
         <li><a href="">Cardápio</a></li>
         <li><a href="">Reserva</a></li>
         <li><a href="">Contato</a></li>
-        <li><a href="" id="especial">PEÇA AQUI</a></li>
+        <li><a href="">PEÇA AQUI</a></li>
       </ul>
-    </header>
+    </nav>
+  </header>
 
-    <div class="conteudo">
-      <h1>Pizzaria do Gui</h1>
-      <p>Somos uma pizzaria especializada em trazer <br> até você os melhores sabores da Itália</p>
-      <a href="" class="button">FAÇA SEU PEDIDO</a>
+  <main class="main-bg">
+    <div class="main container">
+      <div class="main-conteudo">
+        <h1 class="font-titulo cor-0">Pizzaria do Gui</h1>
+        <p class="font-subtitulo cor-6">Somos uma pizzaria especializada em trazer até você os melhores sabores da Itália!</p>
+        <a href="./" class="botao">FAÇA SEU PEDIDO</a>
+      </div>
     </div>
   </main>
-
-  <article class="produtos">
-    <h1>Confira nossos produtos</h1>
-    <div class="pizzas">
-      <div>
-        <img src="./img/salgada.jpg" alt="">
-        <p>Pizzas Salgadas</p>
-      </div>
-      <div>
-        <img src="./img/doce.jpg" alt="">
-        <p>Pizzas Doces</p>
-      </div>
-      <div>
-        <img src="./img/vegana.jpg" alt="">
-        <p>Pizzas Veganas</p>
-      </div>
-    </div>
-    <a href="" class="button">CARDÁPIO COMPLETO</a>
+  <article class="produtos container">
+    <h1 class="font-titulo">Nossos produtos</h1>
+    <ul class="produtos-lista">
+      <li class="produtos-item">
+        <img src="./img/salgada.jpg" alt="Pizza Salgada">
+        <p class="cor-11">Pizzas Salgadas <span class="cor-10">R$39,99</span></p>
+      </li>
+      <li class="produtos-item">
+        <img src="./img/doce.jpg" alt="Pizza Salgada">
+        <p class="cor-11">Pizzas Doces <span class="cor-10">R$49,99</span></p>
+      </li>
+      <li class="produtos-item">
+        <img src="./img/vegana.jpg" alt="Pizza Salgada">
+        <p class="cor-11">Pizzas Veganas <span class="cor-10">R$59,99</span></p>
+      </li>
+    </ul>
   </article>
 
-  <article class="reserva">
-    <img src="./img/reserva.jpg" alt="">
-    <div class="texto">
-      <h1>Reserva</h1>
-      <p>Vai comemorar seu aniversário,<br> sua confraternização ou outro<br> evento e precisa de um espaço<br> aconchegante e preparado para<br> receber seus convidados?</p>
-      <a href="" class="button">FAÇA SUA RESERVA</a>
-    </div>
+  <article>
+    <h1 class="font-titulo">fodase</h1>
   </article>
-
-  <article class="relatos">
-    <img src="./img/perfil.jpg" alt="">
-    <div>
-      <p> ❝ O local é bom, é amplo e não ficamos apertados em <br>outras pessoas. O atendimento é rapido e muito<br> bom. Os garçons são muito bem treinados e<br> educados. O cardápio é diverso e suas pizzas são<br> muito boas. ❞</p>
-      <span>Jeremy Pereira</span>
-    </div>
-  </article>
-
-  <footer>
-    <p>Pizzaria do Gui © Nenhum direito reservado.</p>
-    <div class="contato">
-      <h2>CONTATO</h2>
-      <div class="contato-texto">
-        <p>+55 21 9999-9999</p>
-        <p>contato@pizzariagui.com</p>
-        <img src="./img/detalhe.svg" alt="">
-        <p>Rua Ali Perto, 42 - Botafogo</p>
-        <p>Rio de Janeiro - RJ</p>
-        <img src="./img/detalhe.svg" alt="">
-        <div class="redes">
-          <a href=""><img src="./img/Instagram.svg" alt=""></a>
-          <a href=""><img src="./img/zap.svg" alt=""></a>
-        </div>
-      </div>
-    </div>
-    <div class="info">
-      <h2>INFORMAÇÕES</h2>
-      <div class="info-texto">
-        <a href="">Peça aqui</a>
-        <a href="">Cardápio</a>
-        <a href="">Reserva</a>
-        <a href="">Termos e condições</a>
-      </div>
-    </div>
-  </footer>
 </body>
 
 </html>

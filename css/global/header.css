@@ -1,0 +1,39 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.menu{
+  display: none;
+}
+
+.header-lista{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-lista li:last-child{
+  letter-spacing: 1.25%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+@media (max-width: 600px){
+  body{
+    background: var(--cor-1);
+  }
+  .header{
+    gap: 10px;
+  }
+  .menu{
+    display: block;
+  }
+  .header nav {
+    display: none;
+  }
+}
