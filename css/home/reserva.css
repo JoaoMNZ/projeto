@@ -1,0 +1,43 @@
+.reserva {
+  display: grid;
+  grid-template-columns: 8fr 5fr;
+  padding-top: 80px;
+}
+
+.reserva-img img{
+  object-fit: cover;
+  height: 100%;
+}
+
+.reserva-conteudo {
+  background: var(--cor-11);
+  padding-left: 36px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  align-self: center;
+}
+
+.reserva-conteudo h1 {
+  margin-bottom: 4px;
+}
+
+.reserva-conteudo p {
+  width: 28ch;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .reserva {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+  }
+  .reserva-conteudo p{
+    width: 47ch;
+  }
+}
+
+@media (max-width: 600px) {
+  .reserva-conteudo p{
+    width: 30ch;
+  }
+}

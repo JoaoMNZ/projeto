@@ -1,5 +1,5 @@
 .produtos{
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 .produtos h1{
@@ -46,7 +46,13 @@
 }
 
 @media (max-width: 800px){
+  .produtos{
+    padding-top: 40px;
+  }
   .produtos-item p{
     font-size: 1.5rem;
+  }
+  .produtos-lista{
+    gap: 20px;
   }
 }
