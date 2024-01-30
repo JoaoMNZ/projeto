@@ -1,5 +1,5 @@
 .produtos{
-  padding-top: 80px;
+  margin-bottom: 120px;
 }
 
 .produtos h1{
@@ -45,17 +45,23 @@
   display: inline-block;
   font-size: 0.75rem;
   margin-left: 4px;
-  color: var(--cor-9);
+  color: var(--cor-5);
 }
 
 @media (max-width: 800px){
   .produtos{
-    padding-top: 40px;
+    margin-bottom: 60px;
   }
   .produtos-item p{
     font-size: 1.5rem;
   }
   .produtos-lista{
     gap: 20px;
+  }
+}
+
+@media (max-width: 600px){
+  .produtos{
+    margin-bottom: 40px;
   }
 }

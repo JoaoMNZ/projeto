@@ -4,6 +4,16 @@
   background-size: cover;
   background-position: center center;
   height: 800px;
+  margin-bottom: 120px;
+}
+
+.menu{
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.main{
+  position: relative;
 }
 
 .main p{
@@ -11,8 +21,37 @@
   margin-bottom: 20px;
 }
 
+.aberto{
+  border-top: 1px solid var(--cor-0);
+  text-align: center;
+  display: none;
+  width: 100%;
+  z-index: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: var(--cor-11);
+}
+
+.ativo.aberto{
+  display: block;
+}
+
+
+.aberto li{
+  padding: 20px;
+}
+
+@media(max-width: 800px){
+  .main-bg{
+    height: 600px;
+    margin-bottom: 60px;
+  }
+}
+
 @media(max-width: 600px){
   .main-bg{
     height: 600px;
+    margin-bottom: 40px;
   }
 }

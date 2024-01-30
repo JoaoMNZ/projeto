@@ -1,0 +1,30 @@
+.depoimento{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 120px;
+}
+
+.depoimento p{
+  margin-top: 10px;
+  font: 400 2rem/1.25 "Roboto", sans-serif;
+  text-align: center;
+  font-style: italic;
+  max-width: 43ch;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px){
+  .depoimento{
+    margin-bottom: 60px;
+  }
+  .depoimento p{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px){
+  .depoimento{
+    margin-bottom: 40px;
+  }
+}
